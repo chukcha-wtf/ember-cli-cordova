@@ -38,7 +38,7 @@ module.exports = {
   },
 
   contentFor: function (type) {
-    if (this._isTargetCordova() && type === 'body') {
+    if (this._isTargetCordova() && type === 'cordova') {
       return '<script src="cordova.js"></script>';
     }
   },
